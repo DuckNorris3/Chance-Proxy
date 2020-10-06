@@ -3,14 +3,21 @@
 <html>
   <head>
     <title>Tenthop</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
-    <div id="photo-module"></div>
-    <div id="photo-carousel-modal"></div>
-    <script src="http://127.0.0.1:3001/bundle.js"></script>
-    <div id="booking"></div>
-    <script src="http://127.0.0.1:3002/bundle.js" crossorigin></script>
-    <div id="campsiteHostInfo"></div>
-    <script src="http://127.0.0.1:3003/bundle.js"></script>
+    <div id="app-container">
+      <div id="top-photos">
+        <div id="photo-module"></div>
+        <div id="photo-carousel-modal"></div>
+        <script src="http://127.0.0.1:3001/bundle.js" crossorigin></script>
+      </div>
+      <div id="bottom-container">
+        <div id="campsiteHostInfo"></div>
+        <script src="http://127.0.0.1:3003/bundle.js" crossorigin></script>
+        <div id="booking"></div>
+        <script src="http://127.0.0.1:3002/bundle.js" crossorigin></script>
+      </div>
+    </div>
   </body>
 </html>
