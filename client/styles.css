@@ -3,6 +3,52 @@
   flex-direction: column;
 };
 
+#navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.fas {
+  display: flex;
+  z-index: 99;
+  color: black;
+  border: 1px solid red;
+  position: absolute;
+  top: 18px;
+  left: 8px;
+  width: 14px;
+}
+
+.left-navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.searchbar{
+  margin: 0 1em;
+  font-size: 1em;
+  font-family: Calibre, Helvetica, Arial, sans-serif;
+  color: black;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search{
+  height: 3.0em;
+  width: 25em;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  font-family: Calibre, Helvetica, Arial, sans-serif;
+  font-size: .95em;
+  font-weight: 300;
+}
+
 #top-photos {
   width: 100%
 }
