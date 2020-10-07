@@ -108,4 +108,11 @@ button.host-button {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: .5em;
+  transition: all 0.25s ease 0s;
+  cursor: pointer;
+}
+
+button.host-button:hover {
+  color: #40d9ac;
+  background-color: #fff;
 }
