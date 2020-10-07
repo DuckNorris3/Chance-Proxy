@@ -1,21 +1,23 @@
 #app-container {
   display: flex;
   flex-direction: column;
+  font-family: Calibre, Helvetica, Arial, sans-serif;
+  font-size: 14px;
 };
 
-#navbar {
+.navbar-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .fas {
   display: flex;
   z-index: 99;
   color: black;
-  border: 1px solid red;
   position: absolute;
-  top: 18px;
+  top: 15px;
   left: 8px;
   width: 14px;
 }
@@ -25,6 +27,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+  float: left;
 }
 
 .searchbar{
@@ -67,4 +70,36 @@
   width: 40%;
   position: relative;
   top: -4em;
+}
+
+.right-navbar {
+  width: 50%;
+  height: 125px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  float: right;
+}
+
+.navbar-link {
+  font-size: 15px;
+  margin: .5em;
+  color: #333333;
+  letter-spacing: 0.05em;
+}
+
+button.host-button {
+  color: #fff;
+  border: 3px solid #40d9ac;
+  border-radius: 4px;
+  background-color: #40d9ac;
+  padding: 8px;
+  font-weight: 500;
+  white-space: nowrap;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: .5em;
 }
