@@ -88,6 +88,12 @@
   margin: .5em;
   color: #333333;
   letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: border-bottom ease-in-out;
+}
+
+.navbar-link:hover {
+  border-bottom: 3px solid #40d9ac ;
 }
 
 button.host-button {
