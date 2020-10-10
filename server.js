@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.port || 8080;
 
 const server = app.listen(PORT, () => {
-  console.log(' Tenthop server is listening on port 3000')
+  console.log(` Tenthop server is listening on port ${PORT}`)
 })
 
 app.use(express.static('./client'))
